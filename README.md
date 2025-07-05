@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+#  AI Image Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple AI-powered Image Generator built using React and OpenAI’s DALL·E API. It allows users to generate images from natural language prompts through a clean and minimal UI. The project includes features like prompt-based image generation, responsive and modern user interface, and easy-to-use components built with React and CSS.
 
-## Available Scripts
+##  Features
 
-In the project directory, you can run:
+- Generate images using OpenAI's DALL·E model
+- Responsive and modern UI
+- Easy prompt input and preview
+- Built with React and CSS
 
-### `npm start`
+##  Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To run this project locally, you’ll need Node.js, npm, and an OpenAI API key. First, clone the repository using `git clone https://github.com/Shubham-Shinde-29/Ai-Image-Generator.git` and navigate into the folder using `cd Ai-Image-Generator`. Then install the dependencies with `npm install`. After that, create a `.env` file in the root directory and add your OpenAI API key in the format `REACT_APP_OPENAI_API_KEY=your_openai_api_key_here`. Once that's done, start the development server using `npm start` and visit `http://localhost:3000` in your browser to use the app.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📂 Folder Structure
 
-### `npm test`
+The folder structure is organized as follows:  
+`Ai-Image-Generator/`  
+├── `public/` - Static files  
+├── `src/`  
+│   ├── `Assets/` - Default image asset  
+│   ├── `Components/` - React components  
+│   ├── `App.js` - Main app logic  
+│   ├── `index.css` - App-wide styling  
+│   └── `index.js` - Entry point  
+├── `.env` - API Key file (excluded from Git)  
+├── `package.json` - Project metadata and dependencies  
+├── `README.md` - Project documentation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🎨 Tech Stack
 
-### `npm run build`
+This project uses React for the front end, OpenAI’s DALL·E API for generating images from text, and CSS for styling and layout.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🤝 Contributing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Feel free to fork this repository and contribute by submitting a pull request with any improvements, bug fixes, or new features. Contributions are welcome!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📜 License
 
-### `npm run eject`
+This project is licensed under the MIT License.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 👨‍💻 Author
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Developed by **Shubham Shinde**  
+GitHub: [@Shubham-Shinde-29](https://github.com/Shubham-Shinde-29)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+> Happy Coding! 🚀
